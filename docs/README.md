@@ -36,3 +36,5 @@ Mars. It is not intended for any other purpose.
     4. Open file explorer to the location of the empty directory
     5. Click the Copy File button
     6. Verify that the file was copied to the empty directory
+
+![Example Entry](../Images/example_entry.png)

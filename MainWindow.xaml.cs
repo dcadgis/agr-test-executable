@@ -1,6 +1,7 @@
-﻿using Esri.ArcGISRuntime.Mapping;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Windows;
+using System.Diagnostics;
+using System.Windows.Navigation;
 
 namespace agr_test_executable
 {
@@ -43,6 +44,14 @@ namespace agr_test_executable
         private void Copy_File_Click(object sender, RoutedEventArgs e)
         {
             CopyFile();
+        }
+
+        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
+        {
+            // for .NET Core you need to add UseShellExecute = true
+            // see https://docs.microsoft.com/dotnet/api/system.diagnostics.processstartinfo.useshellexecute#property-value
+            Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri) { UseShellExecute = true });
+            e.Handled = true;
         }
 
         #endregion

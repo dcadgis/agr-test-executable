@@ -26,9 +26,10 @@
                     <ColumnDefinition Width="110*" />
                 </Grid.ColumnDefinitions>
                 <TextBlock Text="Enter a source and destination for a file to be copied."
-                           Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"
+                           Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
                            TextAlignment="Left"
-                           FontWeight="SemiBold" Margin="4,0,106,33" Grid.RowSpan="2" />
+                           FontWeight="SemiBold" Margin="4,0,106,33" Grid.RowSpan="2"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" TextAlignment="Right">Click <Hyperlink NavigateUri="https://github.com/dcadgis/agr-test-executable" RequestNavigate="Hyperlink_RequestNavigate">here</Hyperlink> for help.</TextBlock>
                 <TextBox x:Name="Source_TextBox"
                           Grid.Row="1" 
                           Grid.Column="0"
