@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agr-test-executable", "agr-test-executable.csproj", "{382C16F5-5450-4B82-8D66-6BE891022696}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{382C16F5-5450-4B82-8D66-6BE891022696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382C16F5-5450-4B82-8D66-6BE891022696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382C16F5-5450-4B82-8D66-6BE891022696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382C16F5-5450-4B82-8D66-6BE891022696}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA13138-C0D6-403E-B59F-2EEA7AFBB0F1}
+	EndGlobalSection
+EndGlobal
